@@ -27,12 +27,13 @@ func _on_Button2_pressed():
 
 func _on_Button3_pressed():
 	#Mudando o nome do usuário de acordo com os dados da lista
-		cont=0 #variável não declarada
-		i=numero
-		if(i%2==1):
-			cont+=1
-			$Label2.text = str(nome)
-		if(cont!=0):
-			nome = str(nome+"baldo")
-			$Label2.text = str(nome)
+	cont=0 #variável não declarada
+	i=numero
+	if(i%2==1):
+		cont+=1
+		$Label4.text = str(nome)
+	if(cont!=0):
+		nome = str(nome+"baldo")
+		$Label4.text = str(nome)
+	print(nome)
 			
